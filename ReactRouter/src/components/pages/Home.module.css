@@ -1,0 +1,11 @@
+.items{
+margin: 20px;
+border: 1px solid red;
+padding: 10px;
+}
+.navlink{
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+
+}

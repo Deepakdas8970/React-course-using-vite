@@ -1,0 +1,14 @@
+.button{
+  background-color: rgba(112, 110, 110, 0.782);
+  padding: 9px;
+  margin: 5px 15px;
+  border-radius:50%;
+  width: 90px ! important;
+  height: 85px;
+  font-size: 35px;
+  color: white;
+  font-weight:bold ;
+ }
+ .button:hover{
+   border: 2px solid orangered;
+ }

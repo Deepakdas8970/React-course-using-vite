@@ -1,0 +1,362 @@
+1<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Calculator</title>
+  <style>
+    .main{
+      width: 80vw;
+      height:100vh;
+      background-color: black;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+    }
+    .m1{
+      width: 100vw;
+      height: 40vh;
+      border-bottom: 2px groove white;
+      background: black;
+      font-size: 100px;
+      color: white;
+      font-weight: bold;
+      text-align: right;
+    }
+   .m2 {
+      width: 100vw;
+      height: 54.8%;
+    }
+    .m21{
+      width: 100vw;
+      height: 20%;
+      background:black;
+      position: relative;
+      
+    }
+    
+    .m211{
+      width: 22vw;
+      height: 100%;
+      background: rgb(51,48,48);
+      float: left;
+      border-radius: 50%;
+      font-size: 70px;
+      position: relative;
+     color: white;
+    }
+    .m212 {
+      width: 22vw;
+      height: 100%;
+      background: rgb(51,48,48);
+      float: left;
+      border-radius: 50%;
+      color: white;
+      font-size: 70px;
+      position: relative;
+    }
+    .m213 {
+      width: 22vw;
+      height: 100%;
+      background: rgb(51,48,48);
+      float: left;
+      border-radius: 50%;
+      font-size: 70px;
+      position: relative;
+      color: white;
+    }
+    .m214 {
+      width: 22vw;
+      height: 100%;
+      background: rgb(51,48,48);
+      float: left;
+      border-radius: 50%;
+      font-size: 70px;
+      position: relative;
+      color: white;
+    }
+    
+    .m22 {
+      width: 100vw;
+      height: 20%;
+      background:black;
+      position: relative;
+    }
+      .m221{
+      width: 22vw;
+      height: 100%;
+      background: rgb(51,48,48);
+      float: left;
+      border-radius: 50%;
+      font-size: 70px;
+      position: relative;
+     color: white;
+    }
+    .m222 {
+      width: 22vw;
+      height: 100%;
+      background: rgb(51,48,48);
+      float: left;
+      border-radius: 50%;
+      position: relative;
+      color: white;
+      font-size: 70px;
+      
+    }
+    .m223 {
+      width: 22vw;
+      height: 100%;
+      background: rgb(51,48,48);
+      float: left;
+      border-radius: 50%;
+      font-size: 70px;
+      position: relative;
+      color: white;
+    }
+    .m224 {
+      width: 22vw;
+      height: 100%;
+      background: rgb(51,48,48);
+      float: left;
+      border-radius: 50%;
+      font-size: 70px;
+      position: relative;
+      color: white;
+    }
+    
+    
+    .m23{
+      width: 100vw;
+      height: 20%;
+      background:black;
+    }
+    .m231{
+      width: 22vw;
+      height: 100%;
+      background: rgb(51,48,48);
+      float: left;
+      border-radius: 50%;
+      font-size: 70px;
+      position: relative;
+     color: white;
+    }
+    .m232 {
+      width: 22vw;
+      height: 100%;
+      background: rgb(51,48,48);
+      float: left;
+      border-radius: 50%;
+      font-size: 70px;
+      position: relative;
+      color: white;
+    }
+    .m233 {
+      width: 22vw;
+      height: 100%;
+      background: rgb(51,48,48);
+      float: left;
+      border-radius: 50%;
+      font-size: 70px;
+      position: relative;
+      color: white;
+    }
+    .m234 {
+      width: 22vw;
+      height: 100%;
+      background: rgb(51,48,48);
+      float: left;
+      border-radius: 50%;
+      font-size: 70px;
+      position: relative;
+      color: white;
+    }
+    .m24{
+      width: 100vw;
+      height: 20%;
+      background: black;
+    }
+     .m241{
+      width: 22vw;
+      height: 100%;
+      background: rgb(51,48,48);
+      float: left;
+      border-radius: 50%;
+      font-size: 70px;
+      position: relative;
+     color: white;
+    }
+    .m242 {
+      width: 22vw;
+      height: 100%;
+      background: rgb(51,48,48);
+      float: left;
+      border-radius: 50%;
+      font-size: 70px;
+      position: relative;
+      color: white;
+    }
+    .m243 {
+      width: 22vw;
+      height: 100%;
+      background: rgb(51,48,48);
+      float: left;
+      border-radius: 50%;
+      font-size: 70px;
+      position: relative;
+      color: white;
+    }
+    .m244 {
+      width: 22vw;
+      height: 100%;
+      background: rgb(51,48,48);
+      float: left;
+      border-radius: 50%;
+      font-size: 70px;
+      position: relative;
+      color: white;
+    }
+    
+    .m25{
+      width: 100vw;
+      height: 20%;
+      background:black;
+    }
+    .m251{
+      width: 22vw;
+      height: 100%;
+      background: rgb(51,48,48);
+      float: left;
+      border-radius: 50%;
+      font-size: 70px;
+      position: relative;
+     color: white;
+    }
+    .m252 {
+      width: 22vw;
+      height: 100%;
+      background: rgb(51,48,48);
+      float: left;
+      border-radius: 50%;
+      font-size: 70px;
+      position: relative;
+      color: white;
+    }
+    .m253 {
+      width: 22vw;
+      height: 100%;
+      background: rgb(51,48,48);
+      float: left;
+      border-radius: 50%;
+      font-size: 70px;
+      position: relative;
+      color: white;
+    }
+    .m254 {
+      width: 22vw;
+      height: 100%;
+      background:#EC6C2E;
+      float: left;
+      border-radius: 50%;
+      font-size: 70px;
+      position: relative;
+      color: white;
+    }
+  </style>
+</head>
+
+<body style="background: #1D1C1C;">
+  <div class="main">
+    <div class="m1" id="res">
+      <h1 style=""></h1>
+    </div>
+    <div class="m2">
+      <div class="m21">
+        <div class="m211">
+          <h1 style="position: absolute;top: -60px;left: 60px;">C</h1>
+          
+        </div>
+        <div class="m212">
+         <h2 style="position: absolute;top: -40px;left: 75px;">%</h2>
+        </div>
+        <div class="m213">
+         <h3 style="position: absolute;top: -0px;left: 60px;">Del</h3>
+        </div>
+        <div class="m214">
+         <h2 style="position: absolute;top: -40px;left: 75px;">/</h2>
+        </div>
+        
+      </div>
+      <div class="m22">
+        <button class="m221" id="id1" value="7">
+          <h2 style="position: absolute;top: -40px;left: 75px;">7</h2>
+        
+        </button>
+        <button class="m221" id="main1" value="8">
+          <h2 style="position: absolute;top: -40px;left: 75px;">8</h2>
+        
+        </button>
+        <div class="m223">
+        <h2 style="position: absolute;top: -40px;left: 75px;">9</h2>
+        </div>
+        <div class="m224">
+        <h2 style="position: absolute;top: -40px;left: 75px;">X</h2>
+        </div>
+        
+      
+      </div>
+      <div class="m23">
+        <div class="m231">
+          <h2 style="position: absolute;top: -40px;left: 75px;">4</h2>
+        
+        </div>
+        <div class="m232">
+        <h2 style="position: absolute;top: -40px;left: 75px;">5</h2>
+        </div>
+        <div class="m233">
+        <h2 style="position: absolute;top: -40px;left: 70px;">6</h2>
+        </div>
+        <div class="m234">
+        <h2 style="position: absolute;top: -40px;left: 75px;">-</h2>
+        </div>
+      
+      </div>
+      <div class="m24">
+        <div class="m241">
+          <h2 style="position: absolute;top: -40px;left: 75px;">1</h2>
+        
+        </div>
+        <div class="m242">
+          <h2 style="position: absolute;top: -40px;left: 75px;">2</h2>
+        
+        </div>
+        <div class="m243">
+        <h2 style="position: absolute;top: -40px;left: 75px;">3</h2>
+        </div>
+        <div class="m244">
+        <h2 style="position: absolute;top: -40px;left: 75px;">+</h2>
+        </div>
+      
+      </div>
+      <div class="m25">
+         <div class="m251">
+           <h2 style="position: absolute;top: -40px;left: 55px;">00</h2>
+        
+         </div>
+         <div class="m252">
+         <h2 style="position: absolute;top: -40px;left: 75px;">0</h2>
+         </div>
+         <div class="m253">
+         <h2 style="position: absolute;top: -40px;left: 90px;">.</h2>
+         </div>
+         <div class="m254">
+         <h2 style="position: absolute;top: -40px;left: 75px;">=</h2>
+         </div>
+      
+      </div>
+    
+      
+      
+    </div>
+  </div>
+</body>
+
+</html>

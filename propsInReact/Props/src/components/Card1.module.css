@@ -1,0 +1,11 @@
+.dHeader{
+  background-color: yellow;
+  font-weight: 900;
+}
+.dFooter{
+  background-color: greenyellow;
+}
+.dBody{
+  background-color: aqua;
+  color: black;
+}

@@ -1,0 +1,24 @@
+h1 {
+ font-weight:900;
+ color: red;
+ margin-bottom: 28px;
+ background-color: aquamarine;
+ padding: 20px;
+}
+
+input{
+  width: 100%;
+  border: 2px solid hsla(60, 97%, 54%, 0.944);
+  
+}
+
+.myButton{
+  width: 80px;
+}
+.myrow{
+  margin: 10px;
+  margin: 10px;
+}
+.AddButton{
+  width: 80px;
+}

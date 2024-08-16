@@ -1,0 +1,235 @@
+.progress{
+       margin-bottom: 40px;
+       height: 40px;
+       font-size: 20px;
+       font-weight: bold;
+       color: red;
+        
+}
+#myImage{
+        transform: rotate(9deg);
+}
+#myImage:hover{
+        transform: rotate(0deg);
+}
+.progress-bar{
+        background: #3511E8;
+        text-align: left;
+        padding-left: 25px;
+}
+.deepak{
+               color: #3511E8;
+                position: relative;left: 10%
+}
+
+ @media screen and (min-width: 576px){
+         #menuIcon{
+                 display: none;
+         }
+          #mainlist {
+                 
+                 color: white;
+                 
+                 position : absolute;
+                 top: 0px;
+                 left: 0px;
+                 padding-left:0px;
+                 font-size: 20px;
+                 font-weight: bold;
+                
+                 
+                 
+         
+          }
+          #mainlist ul i{
+                  display: none;;
+          }
+          #mainlist ul{
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  margin-top:15px;
+                  margin-left: 20%;
+                  
+                 
+          }
+          .item{
+                  padding: 10px;
+                  color: white;
+                  
+                  
+          }
+          .item:hover{
+                  color:#3511E8;
+                  border: 1px solid #3511E8;
+          }
+         
+ }       
+   #home img{
+                width: 100%;
+                height: 100%;
+         }
+@media screen and (max-width: 576px){
+         #mainlist {
+                 padding-left: 10px;
+                 width: 50vw;
+                 height: 100vh;
+                 background: #0015FF;
+                 font-size: 20px;
+                 position: fixed;
+                 right: -50vw;
+                 z-index: 1000;
+                 font-weight: bold;
+                 
+        
+         }
+           #mainlist ul {
+                   
+                   
+                  
+                   margin-top: 0;
+                   margin-left: 0;
+         
+         
+           }
+         .item {
+                 padding: 4% 0 4% 0;
+                 color: white;
+               
+         }
+          .item:hover {
+                 
+                  color: #091BEA;
+         
+          }
+         #home img{
+                width: 150px;
+                height: 40px;
+                
+         }
+}
+
+
+.form-control{
+      background: black;
+      height: 50px;
+      color: white;
+      font-weight: bold;
+}
+.form-control:hover{
+        background: black;
+        border: 1px solid #3511E8;
+}
+.contactUs{
+        padding: 0px 10% 0 10%;
+}
+
+
+/* For project page*/
+
+#projectGrid{
+        width: auto;
+        height: auto;
+        display: grid;
+        color: white;
+        grid-template-rows: auto auto;
+        grid-template-columns: auto auto;
+        text-align: center;
+        grid-row-gap: 50px;
+        column-gap: 40px;
+        padding: 5% 10% 15% 10%;
+        align-items: center;
+        
+}
+@media screen and (max-width:480px) {
+        #projectGrid{
+              
+              grid-template-columns: auto;
+              
+        }
+
+        
+}
+#projectGrid .col{
+        border: 1px solid white;
+        height: 100%;
+        position: relative;
+       
+}
+ #projectGrid .col .title{
+        position: absolute;
+        color: #3511E8;
+        font-weight: bold;
+        padding-left: 12%;
+        padding-right: 12%;
+        left: 10%;
+        bottom: -15%;
+        transform: translate(-5%,0%);
+        width: 90%;
+        border: 2px solid #3511E8;;
+        box-shadow: 0px 0px 15px #1300FF;
+}
+body{
+        margin: 0;
+        padding: 0;
+}
+.projectCButton{
+        
+        padding: 0 10% 0 10%;
+        margin: 48px 20px 0 20px;
+}
+.projectCButton .col{
+        border: 1px solid #3511E8;
+        text-align: center;
+        margin: 1% 5% 1% 5%;
+        padding: 5px;
+        color: white;
+        font-weight: bold;
+        background: #3511E8;
+        border-radius: 5px 5px;
+        
+}
+.projectCButton .col:hover{
+        background: none;
+}
+.viewButton{
+        background: #3511E8;
+        color: white;
+        padding: 5px;
+        position: absolute;
+        right:1%;
+        border-radius: 5px 5px;
+        
+}
+.viewButton:hover{
+        background: none;
+        color: #3511E8;
+        border: 2px solid #3511E8;
+}
+
+@media screen and (max-width: 576px){
+        .projectCButton .col{
+        border: 1px solid #3511E8;
+        text-align: center;
+        margin: 1% 1% ;
+        padding: 5px;
+        color: white;
+        font-weight: bold;
+        background: #3511E8;
+        border-radius: 5px 5px;
+        
+}
+.projectCButton .col:hover{
+        background: none;
+}
+.projectCButton {
+
+        padding: 0;
+        margin: 48px 10px 10px 10px;
+}
+
+}
+.form-control::placeholder{
+        color:White;
+        
+}

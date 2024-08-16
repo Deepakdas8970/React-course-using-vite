@@ -1,0 +1,20 @@
+body{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+
+div{
+  margin-top: 20px;
+}
+
+span{
+  font-weight: bold;
+  color: rgb(215, 22, 125);
+}
+
+h1{
+  background-color:red;
+  padding: 20px;
+}
